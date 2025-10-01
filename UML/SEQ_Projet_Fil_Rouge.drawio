@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.2.5">
   <diagram name="Page-1" id="9EMSqDa24869HwMEbP3A">
-    <mxGraphModel dx="1426" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="1">
+    <mxGraphModel dx="1188" dy="626" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="1">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -390,6 +390,30 @@
             <mxPoint x="864" y="1779" as="targetPoint" />
             <mxPoint x="1055" y="1779" as="sourcePoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="LOT9wmNylKdDUpqY30Z5-40" value=":Database" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};strokeWidth=3;fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1199" y="1240" width="120" height="880" as="geometry" />
+        </mxCell>
+        <mxCell id="LOT9wmNylKdDUpqY30Z5-41" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;" vertex="1" parent="LOT9wmNylKdDUpqY30Z5-40">
+          <mxGeometry x="55" y="500" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LOT9wmNylKdDUpqY30Z5-42" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;" vertex="1" parent="LOT9wmNylKdDUpqY30Z5-40">
+          <mxGeometry x="54" y="720" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LOT9wmNylKdDUpqY30Z5-43" value="INSERT INTO User" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="LOT9wmNylKdDUpqY30Z5-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-135" y="729" as="sourcePoint" />
+            <mxPoint x="54" y="729" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LOT9wmNylKdDUpqY30Z5-44" value="return&amp;nbsp;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" parent="LOT9wmNylKdDUpqY30Z5-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-135" y="750" as="targetPoint" />
+            <mxPoint x="54" y="750" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LOT9wmNylKdDUpqY30Z5-45" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#ffcd28;gradientColor=#ffa500;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="1179" y="1210" width="40" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
