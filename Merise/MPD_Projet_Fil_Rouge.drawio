@@ -15,7 +15,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="gTvj8VRMpV9fEYIi67nU-42" value="1,1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="gTvj8VRMpV9fEYIi67nU-35">
+        <mxCell id="gTvj8VRMpV9fEYIi67nU-42" value="MANAGED : 1,1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="gTvj8VRMpV9fEYIi67nU-35">
           <mxGeometry x="0.0907" y="-1" relative="1" as="geometry">
             <mxPoint y="1" as="offset" />
           </mxGeometry>
@@ -47,9 +47,9 @@
         <mxCell id="gTvj8VRMpV9fEYIi67nU-27" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gTvj8VRMpV9fEYIi67nU-22" target="gTvj8VRMpV9fEYIi67nU-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gTvj8VRMpV9fEYIi67nU-32" value="1,n" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="gTvj8VRMpV9fEYIi67nU-27">
+        <mxCell id="gTvj8VRMpV9fEYIi67nU-32" value="BELONGS_EVENT : 1,n" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="gTvj8VRMpV9fEYIi67nU-27">
           <mxGeometry x="0.1333" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="14" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="gTvj8VRMpV9fEYIi67nU-40" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gTvj8VRMpV9fEYIi67nU-36" target="gTvj8VRMpV9fEYIi67nU-8">
@@ -107,13 +107,13 @@
         <mxCell id="gTvj8VRMpV9fEYIi67nU-26" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gTvj8VRMpV9fEYIi67nU-22" target="gTvj8VRMpV9fEYIi67nU-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gTvj8VRMpV9fEYIi67nU-33" value="0,n" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="gTvj8VRMpV9fEYIi67nU-26">
+        <mxCell id="gTvj8VRMpV9fEYIi67nU-33" value="BELONGS_CATEGORY : 0,n" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="gTvj8VRMpV9fEYIi67nU-26">
           <mxGeometry x="-0.0667" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="gTvj8VRMpV9fEYIi67nU-19" value="Category" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="600" y="760" width="160" height="90" as="geometry" />
+          <mxGeometry x="640" y="760" width="160" height="90" as="geometry" />
         </mxCell>
         <mxCell id="gTvj8VRMpV9fEYIi67nU-20" value="&lt;b&gt;&lt;u&gt;id_category&lt;/u&gt;&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="gTvj8VRMpV9fEYIi67nU-19">
           <mxGeometry y="30" width="160" height="30" as="geometry" />
@@ -122,7 +122,7 @@
           <mxGeometry y="60" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="gTvj8VRMpV9fEYIi67nU-22" value="&lt;span data-end=&quot;4198&quot; data-start=&quot;4172&quot;&gt;Event_Belongs_Category&lt;/span&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="600" y="535" width="170" height="120" as="geometry" />
+          <mxGeometry x="635" y="535" width="170" height="120" as="geometry" />
         </mxCell>
         <mxCell id="gTvj8VRMpV9fEYIi67nU-23" value="&lt;u&gt;&lt;b&gt;id_event_belongs_category&lt;/b&gt;&lt;/u&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="gTvj8VRMpV9fEYIi67nU-22">
           <mxGeometry y="30" width="170" height="30" as="geometry" />
