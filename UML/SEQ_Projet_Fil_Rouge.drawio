@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.2.5">
   <diagram name="Page-1" id="9EMSqDa24869HwMEbP3A">
-    <mxGraphModel dx="2037" dy="1073" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -92,7 +92,7 @@
         <mxCell id="-erMYesji34OctEqvvJe-44" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" parent="-erMYesji34OctEqvvJe-6" vertex="1">
           <mxGeometry x="55" y="700" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="-erMYesji34OctEqvvJe-45" value="createUser()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" parent="-erMYesji34OctEqvvJe-6" edge="1">
+        <mxCell id="-erMYesji34OctEqvvJe-45" value="createUser(email, hashPassword, ...)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" parent="-erMYesji34OctEqvvJe-6" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-135.99999999999977" y="720" as="sourcePoint" />
             <mxPoint x="55" y="720" as="targetPoint" />
@@ -164,7 +164,7 @@
             <mxPoint x="654.0000000000002" y="419" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-erMYesji34OctEqvvJe-25" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" parent="1" edge="1">
+        <mxCell id="-erMYesji34OctEqvvJe-25" value="return {&quot;message&quot;, &quot;error&quot;}" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="265" y="1000" as="targetPoint" />
             <mxPoint x="654" y="1000" as="sourcePoint" />
@@ -176,7 +176,7 @@
             <mxPoint x="854" y="520" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-erMYesji34OctEqvvJe-32" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" parent="1" edge="1">
+        <mxCell id="-erMYesji34OctEqvvJe-32" value="return {&quot;message&quot;, &quot;error&quot;}" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="664" y="980.9999999999993" as="targetPoint" />
             <mxPoint x="854" y="980.9999999999993" as="sourcePoint" />
@@ -218,7 +218,7 @@
             <mxPoint x="1455" y="920" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="fQuVUcjvtSsfq1Hmc-oK-17" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" parent="1">
+        <mxCell id="fQuVUcjvtSsfq1Hmc-oK-17" value="return bool" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="864.0000000000002" y="960" as="targetPoint" />
             <mxPoint x="1455" y="960" as="sourcePoint" />
