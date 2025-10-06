@@ -164,7 +164,7 @@
         <mxCell id="VlfzjaUwSPDD4wBWdcZH-59" value="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="190" y="520" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="VlfzjaUwSPDD4wBWdcZH-67" value="" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="VlfzjaUwSPDD4wBWdcZH-67" value="Chaque objet a des methodes de CRUD : create, get, update, delete" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="560" y="160" width="200" height="200" as="geometry" />
         </mxCell>
       </root>
