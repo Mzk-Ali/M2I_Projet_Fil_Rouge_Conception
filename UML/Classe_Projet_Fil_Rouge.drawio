@@ -7,6 +7,9 @@
         <mxCell id="VlfzjaUwSPDD4wBWdcZH-5" value="&lt;font style=&quot;color: light-dark(rgb(255, 0, 0), rgb(237, 237, 237));&quot;&gt;&lt;b&gt;Diagramme de Classes&lt;/b&gt;&lt;/font&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#f8cecc;strokeColor=#b85450;gradientColor=#ea6b66;" vertex="1" parent="1">
           <mxGeometry x="240" y="40" width="400" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="VlfzjaUwSPDD4wBWdcZH-44" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="VlfzjaUwSPDD4wBWdcZH-15" target="VlfzjaUwSPDD4wBWdcZH-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="VlfzjaUwSPDD4wBWdcZH-15" value="User" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="320" y="160" width="160" height="242" as="geometry" />
         </mxCell>
@@ -38,7 +41,7 @@
           <mxGeometry y="216" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="VlfzjaUwSPDD4wBWdcZH-25" value="Event" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="480" width="160" height="190" as="geometry" />
+          <mxGeometry x="320" y="600" width="160" height="190" as="geometry" />
         </mxCell>
         <mxCell id="VlfzjaUwSPDD4wBWdcZH-26" value="- title : String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="VlfzjaUwSPDD4wBWdcZH-25">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
